@@ -1,0 +1,11 @@
+{
+    "name": "CurrensyAdd",
+    "alias": "currensyadd",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\CurrensyAdd\\Providers\\CurrensyAddServiceProvider"
+    ],
+    "files": []
+}

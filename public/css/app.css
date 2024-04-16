@@ -1,0 +1,118 @@
+.main-block{
+    margin: 20px;
+}
+.base-currency {
+    width: 200px!important;
+}
+.currency-rate{
+    width: 90px!important;
+}
+.other-base-currancy{
+    cursor: pointer;
+    color: rgba(53,67,247,0.75);
+}
+.span-rate--select-block span{
+    cursor: pointer;
+}
+.dinamic{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dinamic-item-block{
+    display: flex;
+    width: 244px;
+    justify-content: space-around;
+    align-items: center;
+}
+.selected-rate{
+    border: 1px solid rgba(144,177,224,0.75);
+}
+.rate-date{
+    display: flex;
+    justify-content: space-between;
+}
+.day-btn{
+    cursor: pointer;
+    margin: 3px;
+    padding: 3px;
+    border: 1px solid #1a202c;
+}
+.date-day{
+    margin: 3px;
+    padding: 3px;
+    border: 1px solid #1a202c;
+}
+.date-select{
+    border: 1px solid rgba(144,177,224,0.75)!important;
+}
+.rate-chart{
+    height: 600px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+   display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.add-new-currency-block{
+    display: flex;
+
+}
+.add-new-currency-btn{
+    margin-left: auto!important;
+    /*float: right;*/
+}
+.modal {
+    display: none; /* Скрыть модальное окно по умолчанию */
+    position: fixed; /* Фиксированное положение модального окна */
+    z-index: 1; /* Позиция модального окна над всеми остальными элементами */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* Разрешить прокрутку, если содержимое превышает высоту окна */
+    background-color: rgba(0,0,0,0.4); /* Темный цвет фона */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% от верхнего края страницы */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60% !important; /* Ширина модального окна */
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.table-container {
+    max-height: 300px;
+    overflow-y: auto;
+}
+.list-group-item{
+    cursor: pointer;
+}
+.new-currency-add-li{
+    background-color: rgba(105,224,90,0.75) !important;
+}
+.head-modal-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 10px;
+}
